@@ -1,2 +1,9 @@
 title: "Ruben Severino – Portafolio"
 theme: minimal-mistakes-jekyll
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-github-metadata
+
