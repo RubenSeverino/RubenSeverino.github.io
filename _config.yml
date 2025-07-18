@@ -7,3 +7,33 @@ plugins:
   - jekyll-sitemap
   - jekyll-github-metadata
 
+# Opciones del tema
+# Para habilitar navegación por pestañas y mostrar el menú correctamente
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "home"
+      author_profile: true
+
+# Navegación
+header_pages:
+  - index.md
+  - _pages/about.md
+  - _pages/design.md
+  - _pages/development.md
+
+# Opcional: redes sociales
+author:
+  name: "Ruben Severino"
+  bio: "Game Designer & Developer"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "www.linkedin.com/in/ruben-severino-h"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/RubenSeverino"
+

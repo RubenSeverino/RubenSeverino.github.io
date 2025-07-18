@@ -1,17 +1,24 @@
 ---
-layout: default
+layout: single
 title: Sobre mí
 permalink: /about/
 ---
 
 # Sobre mí
 
-Soy un desarrollador y diseñador de videojuegos con más de 8 años de experiencia en la industria indie.
+Soy Ruben Severino, diseñador y desarrollador de juegos con más de ocho años de experiencia en la industria indie.
+
+Apasionado por el diseño de mecánicas, UX y crear experiencias que conecten con las personas. Me especializo en Unreal Engine 4, diseño de niveles y desarrollo de interfaces.
 
 ---
 
-## Contacto
+## Experiencia destacada
 
-- Email: tu.email@example.com  
-- LinkedIn: [linkedin.com/in/tuperfil](https://linkedin.com/in/tuperfil)  
-- GitHub: [github.com/tuusuario](https://github.com/tuusuario)
+- Diseño de juegos indie con foco en narrativa y mecánicas innovadoras.
+- Trabajo con motores Unreal Engine 4 y Unity.
+- Proyectos de desarrollo web con Jekyll y React.
+
+---
+
+Si quieres conocer más, visita mis otras secciones de Diseño y Desarrollo.
+
