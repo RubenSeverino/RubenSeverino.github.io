@@ -1,11 +1,11 @@
 ---
-layout: single
-title: Home
+layout: default
+title: Inicio
 permalink: /
 ---
 
-# ¡Hola! Soy Ruben  
-_Technical Game Designer & Developer_  
-- [Sobre mí](/about/)  
-- [Desarrollo](/development/)  
-- [Diseño](/design/)  
+# Bienvenido a mi portafolio
+
+Hola, soy Rubén Severino. Este es mi sitio donde comparto mis proyectos de desarrollo y diseño de videojuegos.
+
+Puedes navegar a través de las secciones para conocer más sobre mi experiencia y trabajos.

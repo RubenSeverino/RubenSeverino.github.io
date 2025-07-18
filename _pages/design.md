@@ -1,9 +1,13 @@
 ---
-layout: single
-title: Design
+layout: default
+title: Diseño
 permalink: /design/
 ---
 
-## Casos de Diseño  
-- **Echo Node Prototype**: flujo de interacción, wireframes y prototipo en Figma.  
-- **RA Invaders**: prototipo AR de Whack‑a‑Mole con pruebas de UX.
+# Portafolio de Diseño
+
+Aquí comparto mis proyectos y trabajos enfocados en diseño de videojuegos, UX/UI, y prototipos.
+
+- Proyecto 1: Descripción breve.  
+- Proyecto 2: Descripción breve.  
+- Proyecto 3: Descripción breve.

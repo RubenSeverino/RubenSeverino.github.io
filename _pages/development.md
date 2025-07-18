@@ -1,9 +1,13 @@
 ---
-layout: single
-title: Development
+layout: default
+title: Desarrollo
 permalink: /development/
 ---
 
-## Proyectos de Desarrollo  
-- **The Red Mirror** (UE4, Blueprints): gameplay, IA, cámaras duales…  
-- **Solartopia** (UE4): pathfinding A*, puzzles optimizados para móvil…
+# Portafolio de Desarrollo
+
+En esta sección encontrarás mis trabajos y proyectos de programación y desarrollo en Unity y Unreal Engine.
+
+- Proyecto A: Breve descripción.  
+- Proyecto B: Breve descripción.  
+- Proyecto C: Breve descripción.

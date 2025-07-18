@@ -1,1 +1,6 @@
----\nlayout: default\ntitle: Inicio\n---\n\n# Bienvenido a mi portafolio
+---
+layout: default
+title: Inicio
+---
+
+# Bienvenido a mi portafolio
