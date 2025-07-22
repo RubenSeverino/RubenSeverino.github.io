@@ -1,8 +1,8 @@
 - title: Home
   url: /
 - title: About
-  url: /about/
+  url: /pages/about
 - title: Development
-  url: /development/
+  url: /pages/development/
 - title: Design
-  url: /design/
+  url: /pages/design/
