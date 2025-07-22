@@ -1,6 +1,6 @@
 ---
 title: SolarBurner
-image: /assets/images/tactico.jpg
+image: /assets/images/granjerosE01.PNG
 description: RTS táctico por turnos en el futuro.
 layout: project
 ---

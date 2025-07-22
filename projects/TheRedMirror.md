@@ -1,6 +1,6 @@
 ---
 title: TheRedMirror
-image: /assets/images/tactico.jpg
+image: /assets/images/MicrobesyLetras.png
 description: RTS táctico por turnos en el futuro.
 layout: project
 ---
