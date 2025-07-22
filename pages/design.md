@@ -2,6 +2,7 @@
 layout: default
 title: Diseño
 permalink: /design/
+author_profile: true
 ---
 
 # Portafolio de Diseño

@@ -2,6 +2,7 @@
 layout: default
 title: Desarrollo
 permalink: /development/
+author_profile: true
 ---
 
 # Portafolio de Desarrollo

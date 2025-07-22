@@ -1,7 +1,9 @@
 ---
-layout: single
+layout: default
 title: Sobre mí
+excerpt: "Portfolio profesional, diseño de videojuegos y desarrollo."
 permalink: /about/
+author_profile: true
 ---
 
 # Sobre mí

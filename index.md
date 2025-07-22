@@ -1,34 +1,13 @@
 ---
 layout: home
-title: Ruben Severino Portfolio
+title: "Ruben Severino - Game Designer & Developer"
+excerpt: "Portfolio profesional, diseño de videojuegos y desarrollo."
 permalink: /
+author_profile: true
 ---
 
-## ¡Bienvenido a mi portafolio!
+¡Hola! Soy **Ruben Severino**, diseñador y desarrollador de videojuegos con más de 8 años de experiencia en la industria indie.  
+Explora mis proyectos, conoce sobre mi trayectoria y descubre cómo puedo aportar a tu equipo o iniciativa.
 
-{% tabs %}
-{% tab About %}
 
-### Sobre mí
-
-Hola, soy Ruben Severino, diseñador de juegos con más de ocho años en la industria indie. Apasionado por crear experiencias atractivas y resolver problemas con diseño y desarrollo.
-
-{% endtab %}
-
-{% tab Design %}
-
-### Diseño
-
-Aquí encontrarás mis trabajos de diseño, incluyendo UI, mecánicas y prototipos de juegos.
-
-{% endtab %}
-
-{% tab Development %}
-
-### Desarrollo
-
-Trabajo principalmente con Unreal Engine 4 y tecnologías web para crear experiencias interactivas.
-
-{% endtab %}
-{% endtabs %}
 
