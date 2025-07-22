@@ -4,82 +4,127 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Sobre mí | Ruben Severino – Portafolio</title>
-  <link rel="stylesheet" href="/assets/main.css"><meta charset="utf-8">
-
-<!-- begin _includes/seo.html --><title>Sobre mí - Ruben Severino – Portafolio</title>
-<meta name="description" content="portfolio">
-
-
-  <meta name="author" content="Ruben Severino">
+  <link rel="stylesheet" href="/assets/main.css">
+  <!-- FontAwesome para iconos (opcional) -->
+  <script src="https://kit.fontawesome.com/tu_clave.js" crossorigin="anonymous"></script>
   
+  <style>
+    /* Fondo configurable */
+    body {
+      background-color: var(--bg-color, #f9f9f9);
+      margin: 0; font-family: Arial, sans-serif;
+    }
 
+    /* Imagen arriba */
+    .header-image {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+      display: block;
+    }
 
-<meta property="og:type" content="website">
-<meta property="og:locale" content="en_US">
-<meta property="og:site_name" content="Ruben Severino – Portafolio">
-<meta property="og:title" content="Sobre mí">
-<meta property="og:url" content="/about/">
+    /* Navbar horizontal */
+    .site-nav {
+      display: flex;
+      justify-content: center;
+      background-color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .site-nav ul {
+      list-style: none;
+      margin: 0; padding: 0;
+      display: flex;
+    }
+    .site-nav li {
+      margin: 0;
+    }
+    .site-nav a {
+      display: block;
+      padding: 14px 20px;
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+    }
+    .site-nav a:hover {
+      background-color: #555;
+    }
+    /* Indicador para página activa */
+    .site-nav a.active,
+    .site-nav a.active:hover {
+      background-color: #ff6600;
+      font-weight: 700;
+      border-bottom: 3px solid #ffa500;
+    }
 
-
-  <meta property="og:description" content="portfolio">
-
-
-
-
-
-
-
-
-
-
-
-
-<link rel="canonical" href="/about/">
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- end _includes/seo.html -->
-
-
-
-  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Ruben Severino – Portafolio Feed">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<script>
-  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
-  
-</script>
-
-<!-- For all browsers -->
-<link rel="stylesheet" href="/assets/css/main.css">
-<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
-
-
+    /* Layout para contenido y sidebar en Development */
+    .page-container {
+      display: flex;
+      gap: 20px;
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+    main.site-content {
+      flex: 1;
+    }
+    .sidebar {
+      width: 300px;
+      background: #eee;
+      border-radius: 8px;
+      padding: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      overflow-y: auto;
+      max-height: 600px;
+    }
+    .sidebar h3 {
+      margin-top: 0;
+    }
+    .sidebar .project {
+      cursor: pointer;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      overflow: hidden;
+      transition: box-shadow 0.3s ease;
+      background: white;
+    }
+    .sidebar .project:hover {
+      box-shadow: 0 0 8px #ff6600;
+    }
+    .sidebar .project img {
+      width: 100%;
+      height: 120px;
+      object-fit: cover;
+      display: block;
+    }
+    .sidebar .project .summary {
+      padding: 10px;
+      font-size: 0.9em;
+    }
+  </style>
 </head>
 <body class="default">
-  <header class="site-header">
-    <nav class="site-nav">
-      <a href="/" class="logo">Ruben Severino – Portafolio</a>
-      <ul class="nav-links">
-        <li><a href="/about/">About</a></li>
-        <li><a href="/design/">Design</a></li>
-        <li><a href="/development/">Development</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <main class="site-content">
-    <h1 id="sobre-mí">Sobre mí</h1>
+  <!-- Imagen sobre el menú -->
+  <img src="/assets/header-image.jpg" alt="Header Image" class="header-image">
+
+  <!-- Menú -->
+  <nav class="site-nav">
+  <a href="/" class="logo">Ruben Severino – Portafolio</a>
+  <ul class="nav-links">
+    <li><a href="/about/" class="active">About</a></li>
+    <li><a href="/design/" class="">Design</a></li>
+    <li><a href="/development/" class="">Development</a></li>
+  </ul>
+</nav>
+
+
+  <!-- Contenido -->
+  
+    <main class="site-content">
+      <h1 id="sobre-mí">Sobre mí</h1>
 
 <p>Soy Ruben Severino, diseñador y desarrollador de juegos con más de ocho años de experiencia en la industria indie.</p>
 
@@ -100,8 +145,10 @@
 <p>Si quieres conocer más, visita mis otras secciones de Diseño y Desarrollo.</p>
 
 
-  </main>
+    </main>
+  
 
+  <!-- Footer -->
   <footer class="site-footer">
   <div class="footer-social">
     <p>Connect with me:</p>

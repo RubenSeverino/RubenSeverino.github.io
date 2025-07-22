@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>/projects/solarburner/</loc>
+<lastmod>2025-07-22T21:53:26+00:00</lastmod>
+</url>
+<url>
+<loc>/projects/solartopia/</loc>
+<lastmod>2025-07-22T21:53:26+00:00</lastmod>
+</url>
+<url>
+<loc>/projects/theredmirror/</loc>
+<lastmod>2025-07-22T21:53:26+00:00</lastmod>
+</url>
+<url>
 <loc>/about/</loc>
 </url>
 <url>
@@ -17,22 +29,22 @@
 </url>
 <url>
 <loc>/pages/assets/Ruben%20Severino%20Resumen.pdf</loc>
-<lastmod>2025-07-22T20:13:15+00:00</lastmod>
+<lastmod>2025-07-22T21:53:02+00:00</lastmod>
 </url>
 <url>
 <loc>/pages/assets/Ruben%20Severino-Cover%20Letter.pdf</loc>
-<lastmod>2025-07-22T20:13:15+00:00</lastmod>
+<lastmod>2025-07-22T21:53:02+00:00</lastmod>
 </url>
 <url>
 <loc>/pages/assets/Ruben%20Severino_Resume.pdf</loc>
-<lastmod>2025-07-22T20:13:15+00:00</lastmod>
+<lastmod>2025-07-22T21:53:02+00:00</lastmod>
 </url>
 <url>
 <loc>/pages/assets/Ruben_Severino_CV_Eng.pdf</loc>
-<lastmod>2025-07-22T20:13:15+00:00</lastmod>
+<lastmod>2025-07-22T21:53:02+00:00</lastmod>
 </url>
 <url>
 <loc>/pages/assets/Ruben_Severino_CV_Esp.pdf</loc>
-<lastmod>2025-07-22T20:13:15+00:00</lastmod>
+<lastmod>2025-07-22T21:53:02+00:00</lastmod>
 </url>
 </urlset>
