@@ -2,6 +2,7 @@
 layout: default
 title: Sobre mí
 permalink: /about/
+author_profile: true
 ---
 
 # Sobre mí
