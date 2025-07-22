@@ -3,7 +3,7 @@ layout: home
 title: "Ruben Severino - Game Designer & Developer"
 excerpt: "Portfolio profesional, diseño de videojuegos y desarrollo."
 permalink: /
-author_profile: true
+author_profile: false
 ---
 
 ¡Hola! Soy **Ruben Severino**, diseñador y desarrollador de videojuegos con más de 8 años de experiencia en la industria indie.  
