@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: "Ruben Severino - Game Designer & Developer"
 excerpt: "Portfolio profesional, diseño de videojuegos y desarrollo."
 permalink: /
