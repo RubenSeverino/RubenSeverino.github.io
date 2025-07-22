@@ -1,0 +1,9 @@
+- title: "Project 1"
+  url: "/projects/project1.html"
+  summary: "A short summary of Project 1."
+  image: "/assets/projects/project1.jpg"
+
+- title: "Project 2"
+  url: "/projects/project2.html"
+  summary: "A short summary of Project 2."
+  image: "/assets/projects/project2.jpg"

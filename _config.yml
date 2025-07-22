@@ -36,4 +36,8 @@ author:
     - label: "GitHub"
       icon: "fab fa-github"
       url: "https://github.com/RubenSeverino"
-
+#Colleción de projectos
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
