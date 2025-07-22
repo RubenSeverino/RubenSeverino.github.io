@@ -121,18 +121,18 @@
       </main>
 
       <!-- Sidebar menú de proyectos para Development -->
-      <aside class="sidebar">
-        <h3>My Projects</h3>
-        {% for project in site.data.projects %}
-          <div class="project" onclick="window.location.href='{{ project.url }}'">
-            <img src="{{ project.image }}" alt="{{ project.title }}">
-            <div class="summary">
-              <strong>{{ project.title }}</strong>
-              <p>{{ project.summary }}</p>
-            </div>
+      
+      <h3>My Projects</h3>
+      {% for project in site.data.projects %}
+        <div class="project" onclick="window.location.href='{{ project.url }}'">
+          <img src="{{ project.image }}" alt="{{ project.title }}">
+          <div class="summary">
+            <strong>{{ project.title }}</strong>
+            <p>{{ project.summary }}</p>
           </div>
-        {% endfor %}
-      </aside>
+        </div>
+      {% endfor %}
+      
     </div>
   {% else %}
     <main class="site-content">

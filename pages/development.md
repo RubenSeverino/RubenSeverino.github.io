@@ -2,7 +2,7 @@
 layout: default
 title: Desarrollo
 permalink: /development/
-author_profile: true
+author_profile: false
 ---
 
 # Portafolio de Desarrollo
@@ -12,6 +12,3 @@ En esta sección encontrarás mis trabajos y proyectos de programación y desarr
 # Mis proyectos
 
 adadad
-  
-</div>
-
