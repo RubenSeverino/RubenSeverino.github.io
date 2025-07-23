@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Ruben Severino - Game Designer & Developer"
+title: "About me"
 excerpt: "Portfolio profesional, diseño de videojuegos y desarrollo."
 permalink: /
 author_profile: false

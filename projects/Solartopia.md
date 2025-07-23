@@ -1,6 +1,6 @@
 ---
 title: Solartopia
-image: /assets/images/ST_Level01.png
+image: /assets/images/ST_Level01.PNG
 summary: RTS táctico por turnos en el futuro.
 layout: project
 ---

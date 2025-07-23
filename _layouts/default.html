@@ -118,19 +118,22 @@
         {{ content }}
         <!-- Sidebar menú de proyectos para Development -->
       
-        <h3>My Projects</h3>
-        {% assign projects = site.pages | where_exp: "page", "page.path contains 'projects/'" %}
-        {% for project in projects %}
-          <div class="project" onclick="window.location.href='{{ project.url }}'">
-            {% if project.image %}
-              <img src="{{ project.image }}" alt="{{ project.title }}">
-            {% endif %}
-            <div class="summary">
-              <strong>{{ project.title }}</strong>
-              <p>{{ project.summary }}</p>
+        
+        <aside class="sidebar">
+          <h3>My Projects</h3>
+          {% assign projects = site.pages | where_exp: "page", "page.path contains 'projects/'" %}
+          {% for project in projects %}
+            <div class="project" onclick="window.location.href='{{ project.url }}'">
+              {% if project.image %}
+                <img src="{{ project.image }}" alt="{{ project.title }}">
+              {% endif %}
+              <div class="summary">
+                <strong>{{ project.title }}</strong>
+                <p>{{ project.summary }}</p>
+              </div>
             </div>
-          </div>
-        {% endfor %}
+          {% endfor %}
+        </aside>
 
       </main>
     </div>

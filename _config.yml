@@ -26,16 +26,17 @@ header_pages:
   - _pages/development.md
 
 # Opcional: redes sociales
-author:
-  name: "Ruben Severino"
-  bio: "Game Designer & Developer"
-  links:
-    - label: "LinkedInnn"
-      icon: "fab fa-linkedin"
-      url: "www.linkedin.com/in/ruben-severino-h"
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/RubenSeverino"
+#author:
+#  name: "Ruben Severino"
+#  bio: "Game Designer & Developer"
+#  links:
+#    - label: "LinkedInnn"
+#      icon: "fab fa-linkedin"
+#      url: "www.linkedin.com/in/ruben-severino-h"
+#    - label: "GitHub"
+#      icon: "fab fa-github"
+#      url: "https://github.com/RubenSeverino"
+
 #Colleción de projectos
 collections:
   projects:
