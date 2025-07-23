@@ -108,7 +108,7 @@
 <body class="{{ page.layout }}">
 
   <!-- Imagen sobre el menú -->
-  <img src="{{ '/assets/images/header-image.jpg' | relative_url }}" alt="Header Image" class="header-image">
+  <img src="{{ '/assets/images/header-image1.jpg' | relative_url }}" alt="Header Image" class="header-image">
 
   <!-- Menú -->
   {% include nav.html %}
@@ -118,21 +118,23 @@
     <div class="page-container">
       <main class="site-content">
         {{ content }}
-      </main>
-
-      <!-- Sidebar menú de proyectos para Development -->
+        <!-- Sidebar menú de proyectos para Development -->
       
-      <h3>My Projects</h3>
-      {% for project in site.data.projects %}
-        <div class="project" onclick="window.location.href='{{ project.url }}'">
-          <img src="{{ project.image }}" alt="{{ project.title }}">
-          <div class="summary">
-            <strong>{{ project.title }}</strong>
-            <p>{{ project.summary }}</p>
+        <h3>My Projects</h3>
+        {% assign projects = site.pages | where_exp: "page", "page.path contains 'projects/'" %}
+        {% for project in projects %}
+          <div class="project" onclick="window.location.href='{{ project.url }}'">
+            {% if project.image %}
+              <img src="{{ project.image }}" alt="{{ project.title }}">
+            {% endif %}
+            <div class="summary">
+              <strong>{{ project.title }}</strong>
+              <p>{{ project.summary }}</p>
+            </div>
           </div>
-        </div>
-      {% endfor %}
-      
+        {% endfor %}
+
+      </main>
     </div>
   {% else %}
     <main class="site-content">
