@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Solartopia — Interacción, Historia y Diseño de Juego | Ruben Severino – Portafolio</title>
+  <link rel="stylesheet" href="/assets/style.css">
+  
+  
+</head>
+<body class="project">
+
+  <!-- Imagen sobre el menú -->
+  <img src="/assets/images/header-image3.jpg" alt="Header Image" class="header-image">
+
+  <!-- Menú -->
+  <nav class="site-nav">
+  <a href="/" class="logo ">Ruben Severino – Portafolio</a>
+  <ul class="nav-links">
+    <li><a href="/experience/" class="">Experience</a></li>
+    <li><a href="/development/" class="">Development</a></li>
+  </ul>
+</nav>
+
+
+  <!-- Contenido -->
+  
+    <main class="site-content">
+      <link rel="stylesheet" href="/assets/style.css">
+<main class="project-page">
+  <h1>Solartopia — Interacción, Historia y Diseño de Juego</h1>
+  <p><strong>Fecha:</strong> </p>
+  <h1 id="-solartopia">🌞 Solartopia</h1>
+
+<p><strong>Genre</strong>: Strategy / Simulation<br />
+<strong>Engine</strong>: Unreal Engine 4<br />
+<strong>Platforms</strong>: Mobile (Android/iPhone)<br />
+<strong>Status</strong>: In Development<br />
+<strong>Team Size</strong>: 4</p>
+
+<hr />
+
+<h2 id="-overview">🧩 Overview</h2>
+
+<p>Solartopia is a puzzle-adventure game where players control Paige, the guardian of a shattered cosmic sun, using touch gestures to manipulate the environment and restore light to the universe. The core challenge revolves around spatial reasoning—players rotate platforms, extend bridges, and trigger mechanisms with swipes and taps, while navigating enemies like the bipolar Ghost or the chaotic Hombre Galleta.</p>
+
+<p>What made this project unique was its hybrid input system: a marriage of touch-screen gestures (linear swipes, curved rotations) and Unreal’s Blueprint-based pathfinding, creating a tactile feel rarely seen in mobile 3D games. My role was to architect these systems, ensuring they felt intuitive while supporting complex interactions like chained object physics (e.g., rotators triggering pendulums) and morphing terrain (e.g., trees growing to form bridges).</p>
+
+<hr />
+
+<h2 id="-trailer">🎬 Trailer</h2>
+
+<video controls="" width="100%" poster="/assets/images/solartopia/video-thumbnail.jpg">
+  <source src="/assets/videos/assets/videos/Solartopia_PC.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+<hr />
+
+<h2 id="core-systems--design-thinking">Core Systems &amp; Design Thinking</h2>
+<ol>
+  <li>Touch Gesture System: Precision in Simplicity
+Early on, we realized mobile players needed immediate feedback—no virtual joysticks or cluttered UI. I designed a system where:</li>
+</ol>
+
+<p>Single-Tap selects objects by projecting a collision volume from the touch point, using Unreal’s LineTraceByChannel to detect interactables.</p>
+
+<p>Linear Swipes (N/S/E/W) calculate deltas between touch start/end positions, mapped to object movement. The trick was normalizing inputs across screen resolutions:</p>
+
+<p>blueprint
+// Sample Blueprint math for swipe direction<br />
+FVector2D Delta = TouchEnd - TouchStart;<br />
+if (Delta.Size() &gt; DeadZone) {<br />
+  FVector WorldDelta = ConvertScreenToWorld(Delta);<br />
+  Interactable.Move(WorldDelta * Sensitivity);<br />
+}<br />
+Curved Swipes required more finesse. I treated the touch as a rotational pivot:</p>
+
+<p>A fixed anchor point (Type B) stores the initial touch location.</p>
+
+<p>A moving point (Type A) tracks the finger’s current position.</p>
+
+<p>The angle between them (using FVector::DotProduct) drives object rotation.</p>
+
+<p>Design Challenge: Players accidentally triggered multi-touch, breaking interactions. My solution was to discard all inputs if a second touch was detected, resetting the gesture state.</p>
+
+<ol>
+  <li>Hybrid Pathfinding: Rails Meet A*
+Paige’s movement needed to feel grid-less but predictable. Traditional A* felt too rigid, so I blended it with a rail system:</li>
+</ol>
+
+<p>On tap, the system runs A* (using Unreal’s NavMeshBounds) to find a path.</p>
+
+<p>If valid, Paige follows the path via spline-based movement (UE4’s SplineComponent), with speed adjusted for curvature.</p>
+
+<p>Iteration: Early playtests showed players frustrated by path recalculations mid-movement. I added a “commitment threshold”—once Paige moved 20% along a path, she’d complete it unless blocked. This reduced indecision.</p>
+
+<ol>
+  <li>Interactable Objects: A Chain Reaction
+Every puzzle relied on physical interactables (rotators, extruders) that could trigger others. For example:</li>
+</ol>
+
+<p>A Rotador Directo (player-controlled) could spin a Limón, whose Morph Targets altered Paige’s walkable surfaces.</p>
+
+<p>A Botón Especial activated by Paige could call a mutadorController, chaining to a cbMutador that extruded a platform.</p>
+
+<p>I built these in Blueprints using event dispatchers and interfaces, ensuring decoupled communication. For instance:</p>
+
+<p>blueprint
+// In Rotador_Directo blueprint:<br />
+OnRotate.AddDynamic(Indirecto, &amp;UpdateRotationBasedOnDelta);<br />
+Design Insight: Players loved “aha!” moments when indirect interactions clicked. I leaned into this by staggering tutorials—early levels taught direct controls, while later ones required combining swipes (e.g., curving a rotator to align a bridge).</p>
+
+<ol>
+  <li>Enemy AI: Minimalist but Expressive
+The Ghost enemy’s “bipolar” states were a technical highlight:</li>
+</ol>
+
+<p>Normal State: Used UE4’s Behavior Trees to wander harmlessly.</p>
+
+<p>Altered State: Switched to a PawnSensing-based chase, with material swaps (via Dynamic Material Instances) to signal danger.</p>
+
+<p>Technical Quirk: The Ghost’s collision needed to toggle between Overlap (for phasing) and Block (for attacks). I used SetCollisionResponseToChannel in its state machine.</p>
+
+<hr />
+
+<h2 id="design-philosophy">Design Philosophy</h2>
+<p>Touch as Physics: Every gesture applied force-like feedback—swipes felt “weighty,” taps had subtle screen shakes.</p>
+
+<p>Progressive Complexity: Levels introduced mechanics implicitly (e.g., a crumbling platform taught players to avoid slow swipes).</p>
+
+<p>Narrative Through Mechanics: Paige’s struggle to “rebuild” the world mirrored the player’s act of physically manipulating it.</p>
+
+<hr />
+
+<h2 id="️-features">⚙️ Features</h2>
+
+<p>☀️ Build and optimize solar grids<br />
+ 🏙️ Manage infrastructure and public morale<br />
+ 🌎 Global diplomacy on climate treaties<br />
+ 🎭 Dynamic narrative events<br />
+ 📈 Research and upgrade technologies</p>
+
+<hr />
+
+<h2 id="-what-i-did">🧠 What I Did</h2>
+
+<p>Designed the core gameplay loop and progression systems<br />
+ Implemented UI logic in Blueprint for energy and morale<br />
+ Built procedural terrain and solar placement systems<br />
+ Wrote key narrative events using Unreal’s dialogue system</p>
+
+</main>
+    </main>
+  
+
+  <!-- Footer -->
+  <!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+<footer class="site-footer">
+  <div class="footer-social">
+    <p>Connect with me:</p>
+    <ul class="social-icons">
+      <a href="https://www.linkedin.com/in/ruben-severino-h"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="https://github.com/RubenSeverino/RubenSeverino.github.io"><i class="fab fa-github"></i> GitHub</a>
+    </ul>
+  </div>
+</footer>
+</body>
+</html>
+

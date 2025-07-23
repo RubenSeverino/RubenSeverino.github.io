@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Experience
+permalink: /experience/
+author_profile: false
 ---
 
 <h1>Experience</h1>

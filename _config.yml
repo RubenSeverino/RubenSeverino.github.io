@@ -1,4 +1,4 @@
-title: "Ruben Severino – Portafolio"
+title: "Ruben Severino – Portfolioasdadsad"
 theme: minimal-mistakes-jekyll
 
 plugins:
@@ -21,9 +21,9 @@ defaults:
 # Navegación
 header_pages:
   - index.md
-  - _pages/about.md
-  - _pages/design.md
-  - _pages/development.md
+  - pages/experience.md
+  - pages/design.md
+  - pages/development.md
 
 # Opcional: redes sociales
 #author:
