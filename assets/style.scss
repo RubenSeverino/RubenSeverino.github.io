@@ -5,9 +5,7 @@
   outline: 1px solid red !important;
 }*/
 //extra
-html, body {
-  overflow-x: hidden; /* Prevents horizontal scroll */
-}
+
 //font settings
 h1, h2, h3, h4 {
   font-family: 'Inter', sans-serif;
@@ -81,7 +79,7 @@ header p {
   //background: #2c3e50; /* Match your header color */
   padding: 0px 0;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow */
-  
+  width: 100%;
 }
 
 .site-nav ul {
