@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Desarrollo
-permalink: /development/
+permalink: /projects/
 author_profile: false
 ---
 

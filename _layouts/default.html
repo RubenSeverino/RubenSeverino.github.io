@@ -12,11 +12,11 @@
   {% include nav.html %}
 
   <!-- Contenido -->
-  {% if page.url contains '/development' %}
+  {% if page.url contains '/projects' %}
     <div class="page-container">
       <main class="site-content">
         {{ content }}
-        <!-- Sidebar menú de proyectos para Development -->
+        <!-- Sidebar menú de proyectos para projects -->
         <h3>My Projects</h3>
         {% assign projects = site.pages | where_exp: "page", "page.path contains 'projects/'" %}
         {% for project in projects %}

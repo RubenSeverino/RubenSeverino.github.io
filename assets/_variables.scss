@@ -1,0 +1,16 @@
+
+// Color System
+$primary: #4a90e2;       // Main blue (navigation)
+$dark: #2c3e50;         // Dark blue (headings)
+$light: #f8f9fa;        // Off-white (page bg)
+$white: #ffffff;        // Pure white (content cards)
+
+// Text
+$text-dark: #333333;    // Primary text
+$text-light: #666666;   // Secondary text
+$text-on-dark: rgba(255,255,255,0.9); // Text on dark bg
+
+// Accents
+$accent-light: lighten($primary, 15%);
+$accent-dark: darken($primary, 15%);
+$accent-complement: #e27e4a; // Contrasting orange
