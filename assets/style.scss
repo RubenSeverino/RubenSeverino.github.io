@@ -81,9 +81,7 @@ header p {
   //background: #2c3e50; /* Match your header color */
   padding: 0px 0;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow */
-  transform: translateZ(0);
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
+  
 }
 
 .site-nav ul {
