@@ -31,7 +31,7 @@ header p { font-size: 1.2rem; }
 @media (max-width: 768px) { .menu-icon { display: none; }
   .nav-links { display: none; flex-direction: column; }
   .nav-links.active { display: flex; } }
-.site-nav { display: flex; justify-content: center; align-items: center; background-color: #4a90e2; margin: 0; position: sticky; top: 0; z-index: 100; /* Ensures menu stays above other content */ padding: 0px 0; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */ transform: translateZ(0); backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+.site-nav { display: flex; justify-content: center; align-items: center; background-color: #4a90e2; margin: 0; position: sticky; top: 0; z-index: 100; /* Ensures menu stays above other content */ padding: 0px 0; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */ }
 
 .site-nav ul { list-style: none; margin: 0; padding: 0; display: flex; }
 
