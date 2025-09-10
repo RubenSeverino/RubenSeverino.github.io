@@ -6,7 +6,7 @@
 <body class="{{ page.layout }}">
 
   <!-- Imagen sobre el menú -->
-  <img src="{{ '/assets/images/header-image3.jpg' | relative_url }}" alt="Header Image" class="header-image">
+  <!--<img src="{{ '/assets/images/header-image3.jpg' | relative_url }}" alt="Header Image" class="header-image"> -->
 
   <!-- Menú -->
   {% include nav.html %}
@@ -15,23 +15,72 @@
   {% if page.url contains '/projects' %}
     <div class="page-container">
       <main class="site-content">
-        {{ content }}
-        <!-- Sidebar menú de proyectos para projects -->
-        <h3>My Projects</h3>
-        {% assign projects = site.pages | where_exp: "page", "page.path contains 'projects/'" %}
-        {% for project in projects %}
-          <div class="project" onclick="window.location.href='{{ project.url }}'">
-            <strong class="project-title">{{ project.title }}</strong>
-            <div class="project-content">
-              {% if project.image %}
-                <img src="{{ project.image }}" alt="{{ project.title }}" class="project-image">
-              {% endif %}
-              <div class="summary">
-                <p>{{ project.summary }}</p>
+        <h1 class="projects-title">Game Development Portfolio</h1>
+        <p>Explore my projects ranging from action-adventure games to mobile puzzles and augmented reality experiences</p>
+        <div class="projects-vertical">
+          {% assign projects = site.pages | where_exp: "page", "page.path contains 'projects/'" %}
+          {% for project in projects %}
+            <div class="project-item">
+              <div class="horizontal-container">
+                <div class="project-image-container">
+                  {% if project.image %}
+                    <img src="{{ project.image | relative_url }}" alt="{{ project.title }}" class="project-image">
+                  {% else %}
+                    <img src="https://placehold.co/600x400/2d2d2d/FFB74D" alt="The Red Mirror" class="project-image">
+                  {% endif %}
+                </div>
+                <div class="project-content">
+                  <h2 class="project-title">{{ project.title }}</h2>
+                  <p class="project-summary">{{ project.summary }}</p>
+                  <div class="project-meta">
+                    {% if project.engine %}
+                      <span class="meta-tag">{{ project.engine }}</span>
+                    {% endif %}
+                    {% if project.platform %}
+                      <span class="meta-tag">{{ project.platform }}</span>
+                    {% endif %}
+                    {% if project.gender %}
+                      <span class="meta-tag">{{ project.gender }}</span>
+                    {% endif %}
+                  </div>
+                  <div class="project-footer">
+                    <div>
+                      {% if project.demo %}
+                        <a href="{{ project.demo }}" class="project-link" target="_blank">
+                          Demo <i class="fas fa-external-link-alt"></i>
+                        </a>
+                      {% endif %}
+                      <button class="expand-button" onclick="toggleInfo(this)">Ver más información</button>
+                    </div>
+                    {% if project.status %}
+                      {% assign status = project.status | downcase %}
+                      {% if status contains 'active' or status contains 'development' %}
+                        <span class="project-status status-active">{{ project.status }}</span>
+                      {% elsif status contains 'pause' or status contains 'hold' %}
+                        <span class="project-status status-paused">{{ project.status }}</span>
+                      {% elsif status contains 'complete' or status contains 'done' %}
+                        <span class="project-status status-completed">{{ project.status }}</span>
+                      {% else %}
+                        <span class="project-status status-canceled">{{ project.status }}</span>
+                      {% endif %}
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+              <div class="additional-info" id="additionalInfo">
+                <h3>Información Detallada</h3>
+                <p>Aquí va la información adicional que se mostrará cuando se expanda la tarjeta. Puede incluir:</p>
+                <ul>
+                    <li>Detalles técnicos del proyecto</li>
+                    <li>Características principales</li>
+                    <li>Tecnologías utilizadas</li>
+                    <li>Fecha de lanzamiento</li>
+                </ul>
+                <button class="minimize-button" onclick="toggleInfo(this)">Minimizar</button>
               </div>
             </div>
-          </div>
-        {% endfor %}
+          {% endfor %}
+        </div>
       </main>
     </div>
   {% else %}
@@ -42,6 +91,9 @@
 
   <!-- Footer -->
   {% include footer.html %}
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+  <!-- Font Awesome para los iconos -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
 </body>
 </html>
 

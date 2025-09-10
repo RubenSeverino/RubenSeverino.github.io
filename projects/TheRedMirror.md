@@ -1,8 +1,12 @@
 ---
 title: TheRedMirror
 image: /assets/images/MicrobesyLetras.png
-description: RTS táctico por turnos en el futuro.
+summary: RTS táctico por turnos en el futuro.
 layout: project
+engine: Unreal
+platform: PC
+gender: Interactive Movie
+status: In development
 ---
 
 ### Detalles del juego

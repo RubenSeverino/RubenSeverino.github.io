@@ -1,17 +1,13 @@
 ---
-title: Solartopia — Interacción, Historia y Diseño de Juego
+title: Solartopia
 image: /assets/images/ST_Level01.PNG
 summary: A puzzle-adventure game where players manipulate interactive objects to restore light to a fractured universe, using touch-based gesture controls and hybrid pathfinding.
 layout: project
+engine: Unreal Engine 4
+platform: Mobile (Android/iPhone)  
+gender: Strategy / Simulation  
+status: Paused
 ---
-
-# 🌞 Solartopia
-
-**Genre**: Strategy / Simulation  
-**Engine**: Unreal Engine 4  
-**Platforms**: Mobile (Android/iPhone)  
-**Status**: In Development  
-**Team Size**: 4  
 
 ---
 
