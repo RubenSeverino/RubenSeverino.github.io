@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/projects/Granjeros.html</loc>
+<loc>http://localhost:4000/projects/01TheRedMirror.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/projects/SolarBurner.html</loc>
+<loc>http://localhost:4000/projects/02Solartopia.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/projects/Solartopia.html</loc>
+<loc>http://localhost:4000/projects/03Granjeros.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/projects/TheRedMirror.html</loc>
+<loc>http://localhost:4000/projects/04SolarBurner.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/projects/05ArPrototypes.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/design/</loc>

@@ -16,7 +16,7 @@
     <div class="page-container">
       <main class="site-content">
         <h1 class="projects-title">Game Development Portfolio</h1>
-        <p>Explore my projects ranging from action-adventure games to mobile puzzles and augmented reality experiences</p>
+        <p class="projects-subtitle">Explore my projects ranging from action-adventure games to mobile puzzles and augmented reality experiences</p>
         <div class="projects-vertical">
           {% assign projects = site.pages | where_exp: "page", "page.path contains 'projects/'" %}
           {% for project in projects %}
@@ -68,15 +68,9 @@
                 </div>
               </div>
               <div class="additional-info" id="additionalInfo">
-                <h3>Información Detallada</h3>
-                <p>Aquí va la información adicional que se mostrará cuando se expanda la tarjeta. Puede incluir:</p>
-                <ul>
-                    <li>Detalles técnicos del proyecto</li>
-                    <li>Características principales</li>
-                    <li>Tecnologías utilizadas</li>
-                    <li>Fecha de lanzamiento</li>
-                </ul>
-                <button class="minimize-button" onclick="toggleInfo(this)">Minimizar</button>
+                <div class="project-details">
+                  {{ project.content }}
+                </div>
               </div>
             </div>
           {% endfor %}
