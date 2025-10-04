@@ -1,7 +1,7 @@
 ---
 title: The Red Mirror
 image: /assets/images/TheRedMirror.webp
-summary: 3D Action-Adventure inspired by Detroit: Become Human, with dual camera systems and decision-driven semi-linear narrative.
+summary: 3D Action-Adventure inspired by Detroit Become Human, with dual camera systems and decision-driven semi-linear narrative.
 layout: project
 engine: Unreal Engine 4
 platform: PC

@@ -119,9 +119,5 @@ author_profile: false
               <span>System Architecture</span>
           </div>
       </div>
-      <a href="#" class="back-button">
-          <i class="fas fa-arrow-left"></i>
-          Back to Portfolio
-      </a>
   </div>
 </section>
