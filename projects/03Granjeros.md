@@ -1,7 +1,7 @@
 ---
 title: Granjeros
 image: /assets/images/Granjeros.webp
-summary:  Adaptación para PC de un board game del mismo nombre, desarrollado como herramienta de software para team training y capacity building.
+summary: PC adaptation of the board game of the same name, developed as a software tool for team training and capacity building.
 layout: project
 engine: Unreal Engine 4
 platform: PC

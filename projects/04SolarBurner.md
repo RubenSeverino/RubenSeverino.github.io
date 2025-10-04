@@ -1,13 +1,12 @@
 ---
 title: SolarBurner
 image: /assets/images/SolarBurner.webp
-summary: Endless runner con temática espacial para móviles, enfocado en testing de sistemas de generación procedural y optimización para mobile.
+summary: Space-themed mobile endless runner created to prototype procedural systems and refine mobile optimization techniques.
 layout: project
 engine: Unreal Engine 4
 platform: iOS/Android
 gender: Endless Runner
 status: Canceled
-demo: https://link-a-tu-demo.com/demo.gif
 team_size: 3
 development_time: Junio 2017 – Julio 2017
 ---

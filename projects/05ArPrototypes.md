@@ -1,7 +1,7 @@
 ---
 title: AR Prototypes
 image: /assets/images/ARPrototypes.webp
-summary: Trabajo experimental con Realidad Aumentada en Unity, creando prototipos para experiencias interactivas usando dispositivos móviles.
+summary: Experimental work with Augmented Reality in Unity, creating prototypes for interactive experiences using mobile devices.
 layout: project
 engine: Unity
 platform: iOS/Android

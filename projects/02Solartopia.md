@@ -1,7 +1,7 @@
 ---
 title: Solartopia
 image: /assets/images/Solartopia.webp
-summary: Puzzle game isométrico para móviles donde los jugadores interactúan con switches y plataformas móviles para crear caminos, usando sistema point-and-click.
+summary: Mobile isometric puzzle game featuring switch-and-platform mechanics where players create paths through point-and-click interaction.
 layout: project
 engine: Unreal Engine 4
 platform: iOS/Android 
