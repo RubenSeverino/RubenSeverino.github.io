@@ -1,6 +1,6 @@
 ---
 title: SolarBurner
-image: /assets/images/granjerosE01.PNG
+image: /assets/images/SolarBurner.webp
 summary: Endless runner con temática espacial para móviles, enfocado en testing de sistemas de generación procedural y optimización para mobile.
 layout: project
 engine: Unreal Engine 4
@@ -11,35 +11,34 @@ demo: https://link-a-tu-demo.com/demo.gif
 team_size: 3
 development_time: Junio 2017 – Julio 2017
 ---
-
 <div class="info-sections">
   <div class="info-section">
-    <h4>🎮 Mi Rol & Enfoque</h4>
+    <h4> My Role & Focus</h4>
     <ul>
-      <li><strong>Game & Technical Designer</strong> - Diseño e implementación de sistemas</li>
-      <li><strong>Mobile Optimization</strong> - Performance en diversos dispositivos</li>
-      <li><strong>Rapid Prototyping</strong> - Desarrollo ágil en 1 mes</li>
+      <li><strong>Game & Technical Designer</strong> - System design and implementation</li>
+      <li><strong>Mobile Optimization</strong> - Performance across various devices</li>
+      <li><strong>Rapid Prototyping</strong> - Agile development in 1 month</li>
     </ul>
   </div>
   
   <div class="info-section">
-    <h4>⚡ Sistemas Desarrollados</h4>
+    <h4> Systems Developed</h4>
     <ul>
-      <li><strong>Generación Procedural</strong> - Sistema de obstáculos generados automáticamente</li>
-      <li><strong>Controles Touch</strong> - Esquema optimizado para móviles</li>
-      <li><strong>In-app Purchases</strong> - Integración y testing de monetización</li>
-      <li><strong>Sistema de Scoring</strong> - High scores y comparación social</li>
+      <li><strong>Procedural Generation</strong> - Automatically generated obstacle system</li>
+      <li><strong>Touch Controls</strong> - Optimized scheme for mobile devices</li>
+      <li><strong>In-app Purchases</strong> - Monetization integration and testing</li>
+      <li><strong>Scoring System</strong> - High scores and social comparison</li>
     </ul>
   </div>
   
   <div class="info-section">
-    <h4>🔚 Contexto & Legado</h4>
-    <p>Proyecto experimental para testing de best practices en UE4.</p>
+    <h4> Context & Legacy</h4>
+    <p>Experimental project for testing UE4 best practices.</p>
     <ul>
-      <li>Desarrollo rápido: 1 mes (Junio-Julio 2017)</li>
-      <li>Cancelado por cambio en prioridades del studio</li>
-      <li>Sistemas y lecciones aplicadas a proyectos futuros</li>
-      <li>Equipo pequeño: 3 personas</li>
+      <li>Rapid development: 1 month (June-July 2017)</li>
+      <li>Canceled due to studio priority changes</li>
+      <li>Systems and lessons applied to future projects</li>
+      <li>Small team: 3 people</li>
     </ul>
   </div>
 </div>

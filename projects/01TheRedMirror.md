@@ -1,6 +1,6 @@
 ---
 title: The Red Mirror
-image: /assets/images/MicrobesyLetras.png
+image: /assets/images/TheRedMirror.webp
 summary: 3D Action-Adventure game inspirado en Detroit Become Human, con sistemas de cámara dual y narrativa semi-lineal donde las decisiones del jugador impactan la historia.
 layout: project
 engine: Unreal Engine 4
@@ -12,27 +12,27 @@ development_time: Multiple years (ongoing)
 ---
 <div class="info-sections">
   <div class="info-section">
-    <h4> Mi Rol & Contribuciones</h4>
+    <h4> My Role & Contributions</h4>
     <ul>
-      <li><strong>Gameplay Programmer → Lead Game Designer</strong> - Transición de rol durante el proyecto</li>
-      <li><strong>Sole Programmer</strong> - Todos los sistemas implementados en Blueprints</li>
-      <li><strong>Systems Designer</strong> - Arquitectura de movimiento, cámara, combate, AI</li>
+      <li><strong>Gameplay Programmer → Lead Game Designer</strong> - Role transition during the project</li>
+      <li><strong>Sole Programmer</strong> - All systems implemented in Blueprints</li>
+      <li><strong>Systems Designer</strong> - Movement, camera, combat, and AI architecture</li>
     </ul>
   </div>
   
   <div class="info-section">
-    <h4> Sistemas Técnicos Desarrollados</h4>
+    <h4> Technical Systems Developed</h4>
     <ul>
-      <li><strong>Sistema de cámara dual</strong> - Cinemático para interiors + Third-person para exteriors</li>
-      <li><strong>Movimiento contextual</strong> - Adaptable a espacios tight y navegación fluida</li>
-      <li><strong>Combat & Shooting</strong> - Mecánicas de combate implementadas desde cero</li>
-      <li><strong>Swimming system</strong> - Navegación acuática con físicas personalizadas</li>
+      <li><strong>Dual camera system</strong> - Cinematic for interiors + Third-person for exteriors</li>
+      <li><strong>Contextual movement</strong> - Adaptable to tight spaces and fluid navigation</li>
+      <li><strong>Combat & Shooting</strong> - Combat mechanics implemented from scratch</li>
+      <li><strong>Swimming system</strong> - Aquatic navigation with custom physics</li>
     </ul>
   </div>
   
   <div class="info-section">
-    <h4> Detalle del Juego</h4>
-    <p>Es un juego ambientado en el año 2150 donde lideras escuadrones de asalto en un planeta helado. Los jugadores toman decisiones que afectan permanentemente la narrativa y las relaciones con los personajes.</p>
-    <p>El sistema de cámara dual permite transiciones fluidas entre escenas cinemáticas y exploración libre.</p>
+    <h4> Game Details</h4>
+    <p>A game set in the year 2150 where you lead assault squads on an icy planet. Players make decisions that permanently affect the narrative and character relationships.</p>
+    <p>The dual camera system allows seamless transitions between cinematic scenes and free exploration.</p>
   </div>
 </div>

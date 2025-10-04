@@ -1,6 +1,6 @@
 ---
 title: Solartopia
-image: /assets/images/ST_Level01.PNG
+image: /assets/images/Solartopia.webp
 summary: Puzzle game isométrico para móviles donde los jugadores interactúan con switches y plataformas móviles para crear caminos, usando sistema point-and-click.
 layout: project
 engine: Unreal Engine 4
@@ -10,36 +10,31 @@ status: Paused
 team_size: 9
 development_time: Multiple years
 ---
-
----
-
 <div class="info-sections">
   <div class="info-section">
-    <h4> Mi Rol & Contribuciones</h4>
+    <h4> My Role & Contributions</h4>
     <ul>
-      <li><strong>QA → Technical Designer</strong> - Promoción tras demostrar habilidades técnicas</li>
-      <li><strong>Rediseño de Core Mechanics</strong> - Para optimizar performance en móvil</li>
-      <li><strong>Implementación Completa</strong> - Pathfinding, sistema modular de interacciones</li>
+      <li><strong>QA → Technical Designer</strong> - Promotion after demonstrating technical skills</li>
+      <li><strong>Core Mechanics Redesign</strong> - To optimize mobile performance</li>
+      <li><strong>Full Implementation</strong> - Pathfinding, modular interaction system</li>
     </ul>
   </div>
-  
   <div class="info-section">
-    <h4> Sistemas Desarrollados</h4>
+    <h4> Systems Developed</h4>
     <ul>
-      <li><strong>Pathfinding Optimizado</strong> - Específico para touch input móvil</li>
-      <li><strong>Sistema Modular</strong> - Gestión de switches, plataformas y triggers</li>
-      <li><strong>Framework de Integración</strong> - Conexión de elementos interactivos</li>
-      <li><strong>Nuevas Mecánicas</strong> - Para variedad y complejidad de puzzles</li>
+      <li><strong>Optimized Pathfinding</strong> - Specifically for mobile touch input</li>
+      <li><strong>Modular System</strong> - Management of switches, platforms and triggers</li>
+      <li><strong>Integration Framework</strong> - Connection of interactive elements</li>
+      <li><strong>New Mechanics</strong> - For puzzle variety and complexity</li>
     </ul>
   </div>
-  
   <div class="info-section">
-    <h4> Resultados & Contexto</h4>
-    <p>Versión optimizada y funcional completada internamente. Desarrollo pausado para enfocar otros proyectos del studio.</p>
+    <h4> Results & Context</h4>
+    <p>Optimized and functional version completed internally. Development paused to focus on other studio projects.</p>
     <ul>
-      <li>Reducción significativa de bottlenecks en hardware móvil</li>
-      <li>Mejora en responsiveness y frame rate estable</li>
-      <li>Blueprint logic optimizado para performance móvil</li>
+      <li>Significant reduction of bottlenecks on mobile hardware</li>
+      <li>Improved responsiveness and stable frame rate</li>
+      <li>Blueprint logic optimized for mobile performance</li>
     </ul>
   </div>
 </div>

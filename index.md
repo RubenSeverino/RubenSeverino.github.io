@@ -31,9 +31,19 @@ author_profile: false
         <p>With over 9 years of experience in the indie game industry, I specialize in bridging the gap between design and implementation. I've contributed to every stage of game development—from pre-production and prototyping to post-production—leading development workflows, designing core systems, and building engaging level design experiences.</p>
         <p>I have a strong focus on systemic design, interactive storytelling, and creating gameplay that feels meaningful and immersive.</p>
       </div>
+      <div class="hero-actions">
+          <button class="hero-action-button" onclick="downloadCV('Eng')">
+              <i class="fas fa-download"></i>
+              Download CV (English)
+          </button>
+          <button class="hero-action-button" onclick="downloadCV('Esp')">
+              <i class="fas fa-download"></i>
+              Descargar CV (Español)
+          </button>
+      </div>
       <!-- Botón para bajar a la sección de experiencia -->
       <div class="scroll-indicator">
-        <span>Ver experiencia</span>
+        <span>View Experience</span>
         <div class="arrow-down"></div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 ---
 title: AR Prototypes
-image: /assets/images/ar-prototypes.jpg
+image: /assets/images/ARPrototypes.webp
 summary: Trabajo experimental con Realidad Aumentada en Unity, creando prototipos para experiencias interactivas usando dispositivos móviles.
 layout: project
 engine: Unity
@@ -10,34 +10,32 @@ status: Canceled
 team_size: 2-3
 development_time: Short-term assignment
 ---
-
-
 <div class="info-sections">
   <div class="info-section">
-    <h4>🔬 Mi Rol & Prototipos</h4>
+    <h4> My Role & Prototypes</h4>
     <ul>
-      <li><strong>Game Developer</strong> - Prototipos funcionales en Unity + C#</li>
-      <li><strong>AR Researcher</strong> - Exploración de Vuforia/AR Foundation</li>
-      <li><strong>UX Tester</strong> - Evaluación de interacciones en AR</li>
+      <li><strong>Game Developer</strong> - Functional prototypes in Unity + C#</li>
+      <li><strong>AR Researcher</strong> - Exploration of Vuforia/AR Foundation</li>
+      <li><strong>UX Tester</strong> - Evaluation of AR interactions</li>
     </ul>
   </div>
   
   <div class="info-section">
-    <h4>🎯 Prototipos Desarrollados</h4>
+    <h4> Prototypes Developed</h4>
     <ul>
-      <li><strong>RA Invaders</strong> - Whack-a-Mole en AR con touch inputs</li>
-      <li><strong>Character Interaction</strong> - Proyección de personajes 3D sobre markers</li>
-      <li><strong>Object Tracking</strong> - Sistemas de tracking y reconocimiento</li>
+      <li><strong>AR Invaders</strong> - Whack-a-Mole in AR with touch inputs</li>
+      <li><strong>Character Interaction</strong> - 3D character projection over markers</li>
+      <li><strong>Object Tracking</strong> - Tracking and recognition systems</li>
     </ul>
   </div>
   
   <div class="info-section">
-    <h4>📊 Hallazgos Técnicos</h4>
+    <h4> Technical Findings</h4>
     <ul>
-      <li>Identificación de limitaciones de AR en móviles</li>
-      <li>Optimización de object tracking y performance</li>
-      <li>Integración de UI/animaciones en contexto AR</li>
-      <li>Consideraciones de usabilidad para experiencias AR</li>
+      <li>Identification of AR limitations on mobile devices</li>
+      <li>Optimization of object tracking and performance</li>
+      <li>Integration of UI/animations in AR context</li>
+      <li>Usability considerations for AR experiences</li>
     </ul>
   </div>
 </div>

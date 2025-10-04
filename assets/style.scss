@@ -314,7 +314,7 @@ vertical*/
 }
 .expand-button {
   background: #FFB74D;
-  color: 2D2D2D;
+  color: #2D2D2D;
   border: none;
   padding: 10px 15px;
   border-radius: 6px;
@@ -322,7 +322,7 @@ vertical*/
   margin-top: 15px;
   font-weight: bold;
   transition: all 0.3s ease;
-  display: flex;
+  //display: col;
   align-items: center;
   gap: 8px;
   position: relative;
@@ -708,6 +708,51 @@ footer p{
 .scroll-indicator span {
   margin-bottom: 0.5rem;
   font-weight: 600;
+}
+
+.hero-actions {
+  display: flex;
+  flex-direction: row; 
+  gap: 15px; 
+  justify-content: center; 
+  align-items: center;
+  margin-bottom: 15px;
+  //flex-wrap: wrap; /* Permitir wrap en móvil */
+}
+
+.hero-action-button {
+  background: #FFB74D;
+  color: #2D2D2D;
+  border: none;
+  padding: 12px 20px; /* Un poco más de padding horizontal */
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 15px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  display: inline-flex; /* Cambia de flex a inline-flex */
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  width: auto; /* Asegura ancho automático */
+  white-space: nowrap; /* Evita que el texto se parta */
+}
+
+/* Estilo para el botón secundario */
+.hero-action-button.secondary {
+  background: transparent;
+  color: #FFB74D;
+  border: 2px solid #FFB74D;
+}
+
+.hero-action-button.secondary:hover {
+  background: rgba(255, 183, 77, 0.1);
+}
+
+/* Efectos hover para ambos */
+.hero-action-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 183, 77, 0.3);
 }
 
 .arrow-down {

@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function initPortfolio() {
     initSmoothScroll();
-    initAnimations();
+    //initAnimations();
     initProjectInteractions();
     initRoleCards();
 }
@@ -113,11 +113,11 @@ function toggleInfo(button) {
   
   // Cambiar texto
   if (additionalInfo.classList.contains('expanded')) {
-    buttonText.textContent = 'Ver menos información';
+    buttonText.textContent = 'View Less Information';
     // Scroll suave a la sección expandida (opcional)
     additionalInfo.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
   } else {
-    buttonText.textContent = 'Ver más información';
+    buttonText.textContent = 'View More Information';
   }
   
   // Animación del ícono si existe
@@ -126,4 +126,22 @@ function toggleInfo(button) {
       ? 'rotate(180deg)' 
       : 'rotate(0deg)';
   }
+}
+function downloadCV(language) {
+    const filename = language === 'Eng' 
+        ? 'Ruben_Severino_CV_Eng.pdf' 
+        : 'Ruben_Severino_CV_Esp.pdf';
+    
+    // Crear enlace temporal
+    const link = document.createElement('a');
+    link.href = `/assets/${filename}`;
+    link.download = filename;
+    link.style.display = 'none';
+    
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    
+    // Opcional: Tracking
+    console.log(`CV descargado: ${filename}`);
 }

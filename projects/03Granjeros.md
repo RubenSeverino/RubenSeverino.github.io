@@ -1,6 +1,6 @@
 ---
 title: Granjeros
-image: /assets/images/granjerosE01.PNG
+image: /assets/images/Granjeros.webp
 summary:  Adaptación para PC de un board game del mismo nombre, desarrollado como herramienta de software para team training y capacity building.
 layout: project
 engine: Unreal Engine 4
@@ -10,34 +10,33 @@ status: Completed
 team_size: 12
 development_time: Julio 2017 - Marzo 2018
 ---
-
 <div class="info-sections">
   <div class="info-section">
-    <h4>🎯 Mi Rol & Responsabilidades</h4>
+    <h4> My Role & Responsibilities</h4>
     <ul>
-      <li><strong>Lead Game Designer</strong> - Primer proyecto en rol de liderazgo</li>
-      <li><strong>Technical Designer</strong> - Adaptación de mecánicas de board game a digital</li>
-      <li><strong>Systems Architect</strong> - Estructura de turnos, alianzas y scoring</li>
+      <li><strong>Lead Game Designer</strong> - First project in a leadership role</li>
+      <li><strong>Technical Designer</strong> - Adaptation of board game mechanics to digital</li>
+      <li><strong>Systems Architect</strong> - Turn structure, alliances and scoring system</li>
     </ul>
   </div>
   
   <div class="info-section">
-    <h4>🛠 Sistemas Implementados</h4>
+    <h4> Systems Implemented</h4>
     <ul>
-      <li><strong>Adaptación Completa</strong> - Todas las mecánicas del board game</li>
-      <li><strong>Multiplayer</strong> - Soporte para solitario y gameplay por alianzas</li>
-      <li><strong>Gestión de Recursos</strong> - Sistema estratégico de recursos y productos</li>
-      <li><strong>UI/UX Design</strong> - Accesible para no-gamers (objetivo educativo)</li>
+      <li><strong>Complete Adaptation</strong> - All board game mechanics</li>
+      <li><strong>Multiplayer</strong> - Support for solo and alliance-based gameplay</li>
+      <li><strong>Resource Management</strong> - Strategic resource and product system</li>
+      <li><strong>UI/UX Design</strong> - Accessible for non-gamers (educational objective)</li>
     </ul>
   </div>
   
   <div class="info-section">
-    <h4>💡 Aprendizajes Clave</h4>
-    <p>Mi primera experiencia liderando un equipo multidisciplinario de 12 personas.</p>
+    <h4> Key Learnings</h4>
+    <p>My first experience leading a multidisciplinary team of 12 people.</p>
     <ul>
-      <li>Trabajo con cliente para objetivos educativos específicos</li>
-      <li>Adaptabilidad ante cambios frecuentes en requerimientos</li>
-      <li>Gestión de proyecto complejo con múltiples sistemas integrados</li>
+      <li>Client collaboration for specific educational objectives</li>
+      <li>Adaptability to frequent requirement changes</li>
+      <li>Management of complex project with multiple integrated systems</li>
     </ul>
   </div>
 </div>
