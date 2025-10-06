@@ -19,6 +19,6 @@ My goal is to create accessible, emotionally resonant game experiences built on 
 
 ## 📫 Get in Touch
 
-- [LinkedIn](https://linkedin.com/in/your-profile)
-- [Portfolio](https://your-portfolio.com)
-- Email: your-email@example.com
+- [LinkedIn](https://www.linkedin.com/in/ruben-severino-h)
+- [Portfolio](https://rubenseverino.github.io)
+- Email: r.severino1993@gmail.com
